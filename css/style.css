@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html{
+    position: relative;
+}
+
+.jumbotron {
+    height: 450px;
+    font-size: 20px;
+    padding: 100px;
+    background-image: url(../assets/image/gedungsate.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+h1 {
+    color: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #F2F2F2;
+    text-align: right;
+    width: 100%;
+    padding: 8px;
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #040BDB;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+h2 {
+    color: #4169E1;
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F2F2F2;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #F2F2F2;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer{
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F2F2F2;
+    background-color: #040BDB;
+    box-shadow: 0px -1px 10px grey;
+    text-align: center;
+    font-weight: 500;
+}
+
+.hide {
+    font-family: 'Montserrat', sans-serif;
+    color: #F2F2F2;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
